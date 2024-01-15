@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-img {
+    background-image: linear-gradient(#0F2027, #203A43, #2c5364);
+    /* background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main1 {
+    background-image: url(/images/form-v6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 25%;
+    height: 60vh;
+    box-shadow: 0px 10px 15px #000;
+}
+
+.log-main {
+    background-color: azure;
+    width: 25%;
+    height: 60vh;
+    /* padding-right: 100px; */
+    box-shadow: 0px 10px 15px #000;
+    text-align: center;
+    padding: 10px;
+}
+.log-main h1{
+    font-size: 50px;
+    
+}
+.form-in{
+    padding: 30px;
+    
+}
+
+.box-1 input{ 
+   width: 80%;
+   height: 5vh;
+   font-size: 20px;
+   padding: 20px;
+   margin: 20px;
+   border: none;
+   background-color: azure;
+   border-bottom:2px solid #000 ;
+   
+}
+.box-2 input{ 
+    background-color: azure;
+   width:80%;
+   height: 5vh;
+   font-size: 20px;
+   padding: 20px;
+   margin: 20px;
+   border: none;
+   border-bottom:2px solid #000 ;
+}
+.box-3 input{ 
+    background-color: azure;
+   width: 80%;
+   height: 5vh;
+   font-size: 20px;
+   padding: 10px;
+   margin: 20px;
+   border: none;
+   border-bottom:2px solid #000 ;
+}
+.box-4 input{ 
+    background-color: azure;
+   width: 80%;
+   height: 5vh;
+   font-size: 20px;
+   padding: 10px;
+   margin: 10px;
+   border: none;
+   border-bottom:2px solid #020202 ;
+}
+.submit_div input{
+    margin: 10px;
+    width: 40%;
+    height: 5vh;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 25px;
+}
